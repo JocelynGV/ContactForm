@@ -1,0 +1,118 @@
+<html>
+<head>
+	<title>Contact Information</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>	
+	<div class="flex-container">
+		<h1>Contact Information</h1>
+
+		<table id="contact-form">
+			<tr>
+				<th>Contact Form</th>
+			</tr>
+			<tr>
+				<td>
+					<form method="post" action="php/thank_you.php" class="form">
+					<!--	
+						<label for="fname">First Name: </label>
+						<input name="fname" size="10" maxlength="40" type="text" class="right" required>
+						<br>
+						<label for="lname">Last Name: </label>
+						<input name="lname" size="10" maxlength="40" type="text" class="right">
+						<br>
+						<label for="addr">Address: </label>
+						<input name="addr" size="10" type="text" class="right">
+						<br>
+						<label for="state">State: </label>
+						<select id="state" name="state" class="right" >
+							<option value="none"></option>
+						</select>
+						<br>
+						<label for="zip">Zip: </label>
+						<input name="zip" size="10" maxlength="5" type="text" class="right">
+						<br>
+						<label for="tele">Telephone: </label>
+						<input name="tele" size="10" maxlength="9" type="tele" class="right">
+						<br>
+						<label for="email">Email: </label>
+						<input name="email" size="10" maxlength="40" type="text" class="right">
+						<br>
+					-->
+
+						<table>
+							<tr>
+								<td>
+									<label for="fname">First Name: </label>
+								</td>
+								<td>
+									<input name="fname" size="10" maxlength="40" type="text" class="right" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="lname">Last Name: </label>
+								</td>
+								<td>
+									<input name="lname" size="10" maxlength="40" type="text" class="right">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="addr">Address: </label>
+								</td>
+								<td>
+									<input name="addr" size="10" type="text" class="right">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="state">State: </label>
+								</td>
+								<td>
+									<select id="state" name="state" class="right" >
+										<option value="none"></option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="zip">Zip: </label>
+								</td>
+								<td>
+									<input name="zip" size="10" maxlength="5" type="text" class="right">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="tele">Telephone: </label>
+								</td>
+								<td>
+									<input name="tele" size="10" maxlength="9" type="tele" class="right">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="email">Email: </label>
+								</td>
+								<td>
+									<input name="email" size="10" maxlength="40" type="text" class="right">
+								</td>
+							</tr>
+						</table>
+
+						<input type="reset">
+						<input type="button" value="Save to Database">
+						<input type="submit"> 
+						<br>
+						<a href="view_contacts.html">View Contacts in File</a>
+					</form>	
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<script src="js/contact-form.js"></script>
+</body>
+</html>

@@ -4,42 +4,20 @@
 </head>
 
 <body>
-    <div class="flex-container">
+    <div class="flex-container contact-form">
         <h1>Existing Contacts</h1>
 
-        <table>
-            <tr>
-                <thead>Thank you for Registering!</thead>
-            </tr>
-            <tr>
-                <td>First Name: </td>
-                <td><?php echo ucfirst($_POST['fname'])?> </td>
-            </tr>
-            <tr>
-                <td>Last Name: </td>
-                <td><?php echo ucfirst($_POST['lname'])?> </td>
-            </tr>
-            <tr>
-                <td>Address: </td>
-                <td><?php echo $_POST['addr']?> </td>
-            </tr>
-            <tr>
-                <td>State: </td>
-                <td><?php echo $_POST['state']?> </td>
-            </tr>
-            <tr>
-                <td>Zip: </td>
-                <td><?php echo $_POST['zip']?> </td>
-            </tr>
-            <tr>
-                <td>Telephone: </td>
-                <td><?php echo $_POST['tele']?> </td>
-            </tr>
-            <tr>
-                <td>Email: </td>
-                <td><?php echo $_POST['email']?> </td>
-            </tr>
+        <table id="existing-contact-table">
         </table>
+
+        <div class="scrollButtons">
+            <button id="prev" onclick="showPrevious()">Previous</button>
+            <button id="next" onclick="showNext()">Next</button>
+        </div>
+
+        <a href="index.html">Return to Main Page</a>
     </div>
+
+    <script src="js/view-contacts.js"></script>
 
 </body>

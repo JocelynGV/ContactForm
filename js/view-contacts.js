@@ -89,3 +89,8 @@ function showIndex() {
         displayContact(int);
     }
 }
+
+function updateIndexDisplay() {
+    var dis = document.getElementById("progress");
+    dis.setAttribute("value", index);
+}

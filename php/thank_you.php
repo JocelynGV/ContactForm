@@ -42,6 +42,29 @@
                     <td><?php echo $_POST['email']?> </td>
                 </tr>
             </table>
+			<?php 
+				$myFName = $_POST['fname'];
+				$myLName = $_POST['lname'];
+				$myAddr = $_POST['addr'];
+				$myState = $_POST['state'];
+				$myZip = $_POST['zip'];
+				$myTele = $_POST['tele'];
+				$myEmail = $_POST['email'];
+				// Open the file in append mode
+				$myfile = fopen("../contacts.txt", "a") or die("Unable to open file!");
+				
+				// Write data to the file
+				fwrite($myfile, ucfirst($myFName) . ",");
+				fwrite($myfile, ucfirst($myLName) . ",");
+				fwrite($myfile, ucfirst($myAddr) . ",");
+				fwrite($myfile, ucfirst($myState) . ",");
+				fwrite($myfile, ucfirst($myZip) . ",");
+				fwrite($myfile, ucfirst($myTele) . ",");
+				fwrite($myfile, $myEmail . "\n");  // Add newline after each entry
+				
+				// Close the file handle
+				fclose($myfile);
+			?>
         </div>
 
     </body>

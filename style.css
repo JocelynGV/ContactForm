@@ -34,3 +34,7 @@ body {
 	display: flex;
 	gap: 6em;
 }
+
+table#existing-contact-table tbody tr.white {
+    background-color: #ebe9e7;
+}

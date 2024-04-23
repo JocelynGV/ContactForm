@@ -35,11 +35,11 @@
 
                 for ($i = count($lines) - 1; $i >= 0; $i--) {
                     $entry = preg_split("/,/", $lines[$i]);
-                    if ($i % 2 == 0) {
-                        echo "<tr class='white'>";
-                    } else {
+                    // if ($i % 2 == 0) {
+                    //     echo "<tr class='white'>";
+                    // } else {
                         echo "<tr>";
-                    }
+                    // }
                         for ($j = 0; $j < count($entry); $j++) {
                             echo "<td>" . $entry[$j] . "</td>";
                         }

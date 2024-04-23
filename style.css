@@ -1,5 +1,7 @@
 body {
 	background-color: #faf9f3;
+	margin: 10px;
+	margin-bottom: 30px;
 }
 
 .flex-container {
@@ -8,7 +10,6 @@ body {
 	flex-direction: column;
 	align-items: center;
     gap: 3px;
-	border: 1px;
 }
 
 .flex-container table {
@@ -18,16 +19,23 @@ body {
 }
 
 .form input {
-    justify-content: flex-start;
+	justify-content: flex-start;
 }
 
 .right {
-    align-self: flex-end;
+	align-self: flex-end;
 }
 
+.text-center-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 5px;
+}
 
 .contact-form {
 	background-color: #B0ACA4;
+	border: 7px solid #2b2b2b;
 }
 
 .scrollButtons {

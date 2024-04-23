@@ -4,8 +4,11 @@ function updateColors() {
     var rows = table.rows;
 
     for (let i = 0; i < rows.length; i++) {
-        if (rows[i].classList.contains("white")) {
+        if (i % 2 == 1) {
+            // rows[i].classList.add("white");
             rows[i].style.backgroundColor = "#ebe9e7";
+        } else {
+            rows[i].style.backgroundColor = "#B0ACA4";
         }
     }
 }

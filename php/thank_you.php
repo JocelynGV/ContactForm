@@ -6,12 +6,12 @@
     </head>
 
     <body>
-        <div>
-            <h3>Thank you for Registering!</h3>
+        <div class="flex-container">
+            <h3>Thank you for Registration!</h3>
 
-            <table>
+            <table class="contact-form">
                 <tr>
-                    <thead>Thank you for Registering!</thead>
+                    <thead>Your information is: </thead>
                 </tr>
                 <tr>
                     <td>First Name: </td>

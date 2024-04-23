@@ -47,4 +47,4 @@ Alyssa,Hayes,3434 Walnutwood St,WA,89012,555-789-0123,alyssahayes@example.com
 Ethan,Anderson,234 Cedar St,WA,98001,555-765-4321,ethan.anderson@example.com
 Sophia,Martin,567 Maple St,OR,97001,555-876-5432,sophia.martin@example.com
 Logan,Clark,890 Walnut St,GA,30301,555-987-6543,logan.clark@example.com
-Avery,Taylor,112 Pine St,NV,89001,555-876-5432,avery.taylor@example.com
+Avery,Taylor,112 Pine St,NV,89001,555-876-5432,avery.taylor@example.com,,,,,,
